@@ -14,7 +14,7 @@ Nós implementamos 3 programas, sendo um para cada tarefa, da seguinte forma:
 i)checkSudoku: Esse programa implementa a requisição de verificar se um dado sudoku
 		    preenchido está correto ou não.
 
-ii)hintSudoku: Esse programa implementa a requisição de dado um sodoku com campos marcado
+ii)hintSudoku: Esse programa implementa a requisição de dado um sudoku com campos marcado
 		 com "X" vazio, fornecer os possíveis valores para essas posições.
 
 iii)solveSudoku: Com auxilio do hintSudoku, este programa resolve o sudoku, entregando a matriz pronta.
@@ -23,8 +23,7 @@ iii)solveSudoku: Com auxilio do hintSudoku, este programa resolve o sudoku, entr
 
 ######################### Instruções de Uso ###################################
 
-Para executar os programas, inicialmente, faz-se necessário rodar o arquivo "Makefile" disponibilizado.
-Da seguinte forma: ...(GRIJO explica como rodar o makefile)
+Para executar o programa, inicialmente, faz-se necessário rodar o arquivo "Makefile" disponibilizado.
 
 Então teremos as rotinas: checkSudoku(i), hintSudoku(ii) e solveSudoku(iii). Seguinte instruçoes
 para cada um desses:
