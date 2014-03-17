@@ -5,9 +5,9 @@ Projeto 1 - Sudoku
 Laboratório 01 - MC504: Sistemas Operacionais
 
 Grupo: 
-	Felipe Rodrigues Novaes  - 135663
-	Pedro ...		 - XXXXXX
-	Matheus ...		 - XXXXXX
+	Felipe Rodrigues Novaes  	- 135663
+	Matheus Yokoyama Figueiredo	- 137036
+	Pedro Rodrigues Grijó	 	- 139715
 
 ######## Visão Geral ########
 Nós implementamos 3 programas, sendo um para cada tarefa, da seguinte forma:
@@ -69,5 +69,3 @@ O motivo pela escolha se baseia no fato de um sudoku ter uma matrix apenas de 9x
 9x9x10, isso não causa grande impacto de memória.  
 
 (iii)  Neste problema, se aproveitou das dicas fornecidas pelo hintSudoku para minimizar o tempo de preenchimento. Cada thread segue uma das dicas, independentemente, cobrindo assim todos os casos. No caso de completar a matriz, imprimi ela completa e para.
-
-As threads são criadas de forma dinamica por malloc e para cada fluxo, é necessário copiar a matriz para um novo pointer e passar este pointer novo para frente.
